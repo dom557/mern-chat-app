@@ -8,7 +8,12 @@ body {
 	background-size: cover;
 	background-position: center;
 }
-
+/* .btn {
+	background: #214fc3;
+	color : #a79e9e ;
+	outline-color : #3b0b9c
+	} */
+	
 /* dark mode looking scrollbar */
 ::-webkit-scrollbar {
 	width: 8px;
