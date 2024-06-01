@@ -38,7 +38,7 @@ const NoChatSelected = () => {
 	return (
 		<div className='flex items-center justify-center w-full h-full'>
 			<div className='px-4 text-center sm:text-lg md:text-xl text-gray-200 font-semibold flex flex-col items-center gap-2 transform transition-transform duration-1000 hover:scale-110'>
-				<p className="animate-pulse"><span className= "text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-500 hover:animate-none hover:bg-gradient-to-r-from-blue-400-to-pink-500 hover:bg-transparent ">Welcome</span>👋 {authUser.fullName} ❄</p>
+				<p className="animate-pulse"><span className= "text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-500 hover:animate-none  hover:bg-transparent ">Welcome</span>👋 {authUser.fullName} ❄</p>
 				<p >Select a chat to start messaging</p>
 				<TiMessages className='text-3xl md:text-6xl text-center' />
 			</div>
